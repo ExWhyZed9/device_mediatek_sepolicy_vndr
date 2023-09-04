@@ -1015,3 +1015,6 @@
 # Date: 2021/09/26
 # Purpose: Add permission for vilte
 /dev/ccci_vts u:object_r:ccci_vts_device:s0
+
+# ConsumerIr
+/(vendor|system/vendor)/bin/hw/android\.hardware\.ir-service\.mediatek                    u:object_r:hal_ir_default_exec:s0
